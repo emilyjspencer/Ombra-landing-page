@@ -1,0 +1,143 @@
+<script src= "https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<html>
+ <header id="header"> 
+  <nav id="nav-bar" class="nav-bar">
+   
+     <a class="nav-link" href="#science-anchor" rel="internal">The Science</a> 
+      <a class="nav-link" href="#shopping-anchor" rel="internal">Sports bra shopping</a>
+     <a class="nav-link" href="#product-anchor" rel="internal">Products</a>
+    </ul>
+          </nav>
+  <br>
+  <br>
+
+
+       <h1>OMbra: the ultimate sports bra</h1>
+<img src="https://icdn3.digitaltrends.com/image/omsignal-ombra-specs-adapt-700x467-c.jpg?ver=1.jpg">
+<div class="logo">
+    <img id="header-img" src="http://getdrawings.com/img/blind-silhouette-34.jpg" alt="pink goddess" height="80px">
+  </div>
+</header>
+                                            <div id="subscription">
+  <p>Subscribe to our newsletter and get all the news and deals sent straight to your inbox</p>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <input  id="email" type="email" name="email" placeholder="Your Email" required>
+    <input type="submit" value="Submit" id="submit">
+  </form>
+</div>                      
+
+<strong><em><p id="description">Our bras are superior</p></em></strong>
+
+<div id="video-wrapper">
+          <div>
+            <strong><p>The Science Behind OMbra: Developing The Ultimate Sports Bra</p></strong>
+          </div>
+  <iframe id="video" width="600" height="400" src="https://www.youtube.com/embed/Jam_MGElP8c" allowfullscreen></iframe>
+  <p id="science-anchor">The core of the OMbra, a small black box that sits above the torso, houses a range of sensors that track running performance indicators, such as distance, cadence, pace, heart rate and calories. Positioned in a similar place to where a heart-rate strap may sit on the body, the bra collects data about your workout and sends it directly to a corresponding app.</p>
+  
+
+  <br>
+  <p id="shopping-anchor">"In our research, we learned women don't like chest straps — men don't typically like them either — but females particularly dislike it because it has to coexist with the bra," OM co-founder, Stéphane Marceau, told Mashable. "We wanted to design a sports bra that could serve two purposes at the same time." 
+
+While this may seem like a gimmick, the concept and the app are quite intelligent While this may seem like a gimmick, the concept and the app are quite intelligent: It tracks how much you're moving (activity), your breathing (respiration) and heart-rate. At the end of a workout, you get a score of 1 to 10, calculated by these three measurements.
+
+The smart bra also monitors how soon your body recovers from a workout and matches that data up against others in your age range.<br>
+    <br>
+    
+The design, which comes in various colors, is made of stretchy material that allows the bra to move as you do, while providing support at the same time. The start-up kit is $149 for a bra and the fitness tracker — additional bras are $59 (the fitness core can be detached from one and connected to another).
+
+However, the company is already working to bring the concept to other types of bras, as well.
+
+"The natural place to start was with sports bras to cater to people who wanted fitness tracking, but we want to include the technology into other everyday and intimate-looking bras," Marceau added. "It's already in the works.
+
+"A few years from now, you'll go to the mall and buy a bra and it will be connected. When you go to buy a car, you don't ask the dealer for a gas gauge and a speedometer. You just expect it to be there."</p><br>
+  
+  <p>How to choose the best sports bra for support during your workout</p><br>
+          <iframe id="video" width="600"  height="400" src="https://www.youtube.com/embed/iWACN4ADE80"  allowfullscreen></iframe>">
+        </div>
+
+<p id="product-anchor">Take a look at our products</p>
+
+
+
+  
+  
+  
+
+#h1{
+  text-align:center;
+}
+
+body {
+  background-color:#eaa4f4;
+  background: linear-gradient(top, #eaa4f4, #583d60);
+  text-align:center;
+}
+
+.nav-bar {
+  font-size: 30px;
+  color: #cb04dd;
+  position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+#nav-bar {
+  
+}
+
+#container{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+#main-body{
+  width: 100%;
+  margin: auto;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#shopping-anchor {
+  margin: 50px;
+}
+
+#science-anchor {
+  margin:50px;
+}
+
+#product-anchor {
+  margin:50px;
+}
+
+@media (max-width: 700px) {
+  #header {
+    position: absolute;
+  }
+  
+  #logo {
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
+  
+  
+  
+  
+  
+  #header {
+  position: fixed;
+  top: 0;
+}
+#nav-link {
+    width:100%;
+ 
+   
+    overflow: hidden;
+/*     position: fixed; */
+    top: 0;
+}
